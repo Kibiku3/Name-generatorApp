@@ -1,3 +1,4 @@
+
 //General Array function
 function makeArray(n){
     this.length=n;
