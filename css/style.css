@@ -3,3 +3,26 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+.bg-img{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+    max-width: 100%;
+  height: auto;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
