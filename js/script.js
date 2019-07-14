@@ -1,5 +1,5 @@
 //General Array function
-function MakeArray(n){
+function makeArray(n){
     this.length=n;
     var i;
     for (i=1, i<=n; i++;){
@@ -8,29 +8,11 @@ function MakeArray(n){
 }
 
 //Initialize Days of Week Array
-days=new MakeArray(7);
-days[0]="Saturday"
-days[1]="Sunday"
-days[2]="Monday"
-days[3]="Tuesday"
-days[4]="Wednesday"
-days[5]="Thursday"
-days[6]="Friday"
+var days=["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"];
+
 
 //Initialize Months Array
-months=new MakeArray(12);
-months[0]="January"
-months[1]="February"
-months[2]="March"
-months[3]="April"
-months[4]="May"
-months[5]="June"
-months[6]="July"
-months[7]="August"
-months[8]="September"
-months[9]="October"
-months[10]="November"
-months[11]="December"
+var months=["undefined","January","February","March","April","May","June","July","August","September","October","November","December"];
 
 //Day of week function
 function compute(form){
@@ -64,4 +46,39 @@ function compute(form){
     var val0=val8-(val9*7)
     form.result1.value=months[val2]+""+form.day.value+","+form.year.value
     form.result2.value=days[val0]
+
+    //Checking both day and gender and giving an Akan Name
+    if (document.getElementById('maleRadio').checked && days[val0] === 'Monday') {
+        form.result3.value = 'Your Akan name is Kwadwo, which means you were born on Monday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Monday') {
+        form.result3.value = 'Your Akan name is Adwoa, which means you were born on Monday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Tuesday') {
+        form.result3.value = 'Your Akan name is Kwabena, which means you were born on Tuesday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Tuesday') {
+        form.result3.value = 'Your Akan name is Abenaa, which means you were born on Tuesday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Wednesday') {
+        form.result3.value = 'Your Akan name is Kwaku, which means you were born on Wednesday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Wednesday') {
+        form.result3.value = 'Your Akan name is Akua, which means you were born on Wednesday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Thursday') {
+        form.result3.value = 'Your Akan name is Yaw, which means you were born on Thursday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Thursday') {
+        form.result3.value = 'Your Akan name is Yaa, which means you were born on Thursday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Friday') {
+        form.result3.value = 'Your Akan name is Kofi, which means you were born on Friday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Friday') {
+        form.result3.value = 'Your Akan name is Afua, which means you were born on Friday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Saturday') {
+        form.result3.value = 'Your Akan name is Kwame, which means you were born on Saturday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Saturday') {
+        form.result3.value = 'Your Akan name is Ama, which means you were born on Saturday';
+    } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Sunday') {
+        form.result3.value = 'Your Akan name is Kwasi, which means you were born on Sunday';
+    } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Sunday') {
+        form.result3.value = 'Your Akan name is Akosua, which means you were born on Sunday';
+    }
+ else {
+    alert('Error, Some fields are Empty!!');
+    document.getElementById('myForm').reset();
+}
 }
