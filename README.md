@@ -2,13 +2,13 @@
 Know the day you were born, Know your Akan Name!
 
 ## Table of Contents
-* [General information] (#general-information)
-* [Technologies Used] (#technologies-used)
-* [Setup] (#setup)
-* [Demo] (#demo)
-* [Contributions] (#contributions)
-* [Author's information] (#author's-information)
-* [Licence] (#licence)
+* [General information](#general-information)
+* [Technologies Used](#technologies-used)
+* [Setup](#setup)
+* [Demo](#demo)
+* [Contributions](#contributions)
+* [Author's information](#author's-information)
+* [Licence](#licence)
 
 ## General Information
 Akan Name Generator is a calculator by itself. It is fun working with it. Many people know the date they were born but very few know the day. Akan Name Generator not only calculates the day one was born, but it also tells them what their Akan Name is depending on the day and their gender. Akan names are derived from Ghanian culture, where children are given their first name as a 'day name' which corresponds to the day in the week they were born.
