@@ -1,4 +1,7 @@
-h1,h2{
+body{
+  background-color: #111;
+}
+h1,h2,h3,h4{
   background-color: azure;
 }
 table{
@@ -13,6 +16,9 @@ td,th{
 }
 tr:nth-child(even){
     background-color: #dddddd;
+}
+tr{
+  background-color: aliceblue;
 }
 .bg-img{
     background-position: center;
@@ -35,40 +41,11 @@ img{
     color:white;
     font-weight: bolder;
   }  
-  ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    top: 0;
-    position: fixed;
-    width: 97.5%;
-  }
-  
-  ul.topnav li {float: left;}
-  
-  ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  ul.topnav li a:hover:not(.active) {background-color: #111;}
-  
-  ul.topnav li a.active {background-color: #4CAF50;}
-  
-  ul.topnav li.right {float: right;}
-
-  /* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+ 
+p{
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 /* Bottom left text */
 .bottom-left {
   position: absolute;

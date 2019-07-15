@@ -1,13 +1,4 @@
 
-//General Array function
-function makeArray(n){
-    this.length=n;
-    var i;
-    for (i=1, i<=n; i++;){
-        this[i]=0;
-    }
-}
-
 //Initialize Days of Week Array
 var days=["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"];
 
@@ -66,7 +57,7 @@ function compute(form){
     } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Thursday') {
         form.result3.value = 'Your Akan name is Yaa, which means you were born on Thursday';
     } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Friday') {
-        form.result3.value = 'Your Akan name is Kofi, which means you were born on Friday';
+        form.result3.value = 'Your Akan  is Kofi, which means you were born on Friday';
     } else if (document.getElementById('femaleRadio').checked  && days[val0] === 'Friday') {
         form.result3.value = 'Your Akan name is Afua, which means you were born on Friday';
     } else if (document.getElementById('maleRadio').checked  && days[val0] === 'Saturday') {
