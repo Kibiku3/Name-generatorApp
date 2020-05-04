@@ -28,7 +28,7 @@ To setup follow these steps:
 
 ## Demo
 Here is a working live demo of Akan Name Generator:
-https://kibiku3.github.io/Name-generatorApp/
+https://luke-reign.github.io/Name-generatorApp/
 
 ## Contributions
 want to contribute? Great!
@@ -43,7 +43,7 @@ To fix a bug or enhance an existing module, follow these steps:
 * Create a Pull Request
 
 ## Authors Information
-* Samuel Kibiku
+* Luke Samuel Kibiku
 contact: lkibiku@gmail.com
 
 ## Licence
